@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="car.p2pchat.controllers.Groupe">
+   <children>
+      <Button fx:id="valide" layoutX="163.0" layoutY="435.0" mnemonicParsing="false" text="Valider" />
+      <RadioButton layoutX="111.0" layoutY="75.0" mnemonicParsing="false" text="seg1" />
+      <RadioButton layoutX="111.0" layoutY="122.0" mnemonicParsing="false" text="seg2" />
+      <Label layoutX="198.0" layoutY="29.0" prefHeight="16.0" prefWidth="102.0" text="Groupe1" />
+      <Button layoutX="293.0" layoutY="435.0" mnemonicParsing="false" text="Annuler" />
+   </children>
+</AnchorPane>
